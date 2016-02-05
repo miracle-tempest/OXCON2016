@@ -54,6 +54,12 @@ $(slides_pdf_file): $(slides_sources) $(graphics_for_slides) Makefile
 
 vi: paper
 
+commit:
+	git add -A
+	git commit
+	git pull
+	git push
+
 paper:
 	$(editor) $(paper_source)
 
