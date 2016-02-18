@@ -25,7 +25,7 @@ graphics_dir = ./graphics
 
 temporary_files = *.log *.aux *.out *.idx *.ilg *.bbl *.blg .pdf *.nav *.snm *.toc
 
-all:: $(paper_pdf_file) $(slides_pdf_file)
+all:: $(paper_pdf_file) 
 
 graphics_for_paper = $(graphics_dir)/ox_brand_cmyk_pos.pdf
 
